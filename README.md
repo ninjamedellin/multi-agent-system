@@ -37,35 +37,36 @@ The agent is equipped with a modular toolset to handle diverse tasks:
    ```bash
    git clone [https://github.com/ninjamedellin/multi-agent-system.git](https://github.com/ninjamedellin/multi-agent-system.git)
    cd multi-agent-system
-Create and activate a virtual environment:
+   
+* Create and activate a virtual environment:
 
 
 # Windows
-python -m venv venv
-source venv/Scripts/activate
+* python -m venv venv
+* source venv/Scripts/activate
 
 # Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
-Install dependencies:
+* python3 -m venv venv
+* source venv/bin/activate
+* Install dependencies:
 
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
-Environment Configuration: Create a folder named .secrets in the root directory and create a file named .env inside it (.secrets/.env). Add your API keys:
+* Environment Configuration: Create a folder named .secrets in the root directory and create a file named .env inside it (.secrets/.env). Add * your API keys:
 
 
-GOOGLE_API_KEY="your_gemini_api_key"
-GOOGLE_CSE_ID="your_search_engine_id"
-GOOGLE_API_KEY_SEARCH="your_google_search_api_key"
+* GOOGLE_API_KEY="your_gemini_api_key"
+* GOOGLE_CSE_ID="your_search_engine_id"
+* GOOGLE_API_KEY_SEARCH="your_google_search_api_key"
 
 # Usage
-Command Line Interface (CLI)
-You can test the agent directly from the terminal with a single prompt:
+* Command Line Interface (CLI)
+* You can test the agent directly from the terminal with a single prompt:
 
 
 
-python app.py "What is the year they mentioned in the file your_folder_test_audio_jpg_xls/file.mp3"
+* python app.py "What is the year they mentioned in the file your_folder_test_audio_jpg_xls/file.mp3"
 
 
 
