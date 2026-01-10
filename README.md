@@ -84,4 +84,4 @@ Create and activate a virtual environment:
 * `.secrets/`: Folder for storing environment variables (ignored by Git).
 
 ---
-*Developed as part of the Hugging Face AI Agents Course.*
+*Developed by Andrés M.*
