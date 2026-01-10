@@ -31,29 +31,33 @@ The agent is equipped with a modular toolset to handle diverse tasks:
   * Gemini API (Generative Language API)
   * Custom Search JSON API
 
+
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ninjamedellin/multi-agent-system.git](https://github.com/ninjamedellin/multi-agent-system.git)
-   cd multi-agent-system
+   git clone https://github.com/ninjamedellin/multi-agent-system.git
    
-* Create and activate a virtual environment:
+Create and activate a virtual environment:
 
 
-# Windows
-* python -m venv venv
-* source venv/Scripts/activate
+1. **Windows:**
+   ```bash
+   python -m venv venv
+   source venv/Scripts/activate
+   
 
-# Mac/Linux
-* python3 -m venv venv
-* source venv/bin/activate
-* Install dependencies:
+2. **Linux:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
 
+3. **Install dependencies:**
+   ```bash 
+   pip install -r requirements.txt
 
-* pip install -r requirements.txt
-
-* Environment Configuration: Create a folder named .secrets in the root directory and create a file named .env inside it (.secrets/.env). Add * your API keys:
+4. **Environment Configuration:**
+- Create a folder named .secrets in the root directory and create a file named .env inside it (.secrets/.env). Add * your API keys:
 
 
 * GOOGLE_API_KEY="your_gemini_api_key"
