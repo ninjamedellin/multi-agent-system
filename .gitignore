@@ -1,0 +1,52 @@
+# ----------------------------------------
+# 1. Variables de Entorno y Claves Secretas
+# ----------------------------------------
+
+# Ignorar la carpeta completa de secretos que contiene el .env
+.secrets/
+
+# Ignorar archivos .env por si se crean en otro lugar
+.env
+*.env
+
+# ----------------------------------------
+# 2. Entorno Virtual de Python
+# ----------------------------------------
+
+# Ignorar la carpeta del entorno virtual (.venv)
+# (Esto asume que llamaste a tu entorno .venv)
+.venv/
+venv/
+env/
+venv*
+venv_8_final_project/
+.secrets/
+
+# ----------------------------------------
+# 3. Archivos de Python Compilados
+# ----------------------------------------
+
+# Ignorar archivos de bytecode de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de sistema
+.DS_Store
+
+# ----------------------------------------
+# 4. Archivos de Datos y Temporales
+# ----------------------------------------
+
+# ----------------------------------------
+# 5. Archivos de Testing y Assets
+# ----------------------------------------
+test_assets/
+
+# Archivos de preguntas generados durante el testing (si se usan)
+questions.json
+
+# Archivos temporales generados por el agente (ej. imágenes extraídas)
+/tmp/
+
+# Log files, si los generas
+*.log
